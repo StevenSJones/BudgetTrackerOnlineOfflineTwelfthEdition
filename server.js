@@ -22,11 +22,20 @@ app.use(express.static("public"));
 
 const uri = "mongodb+srv://Steven:Password1@cluster0.s4hbt.mongodb.net/budget?retryWrites=true&w=majority";
 //connecting to mongoose
-mongoose.connect(uri, {
-  useNewUrlParser: true,
-  useFindAndModify: false,
-  useUnifiedTopology: true 
-}).then(() => {
+// mongoose.connect(uri, {
+//   useNewUrlParser: true,
+//   useFindAndModify: false,
+//   useUnifiedTopology: true 
+// })
+mongoose.connect(
+  process.env.MONGODB_URI || 'mongodb://localhost/deep-thoughts',
+  {
+    useNewUrlParser: true,
+    useUnifiedTopology: true,
+    useCreateIndex: true,
+    useFindAndModify: false
+  }
+).then(() => {
   console.log("Connected!")
 })
 .catch(err => console.log(err))
