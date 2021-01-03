@@ -1,6 +1,5 @@
 const CACHE_NAME = "static-cache-v2";
 const DATA_CACHE_NAME = "data-cache-v1";
-
 //watch the file path. You can always right click and select relative file path.
 //the files that we will cache
 const FILES_TO_CACHE = [

@@ -1,63 +1,30 @@
-# Unit 18 PWA Homework: Online/Offline Budget Trackers
-
-Add functionality to our existing Budget Tracker application to allow for offline access and functionality.
-
-The user will be able to add expenses and deposits to their budget with or without a connection. When entering transactions offline, they should populate the total when brought back online.
-
-Offline Functionality:
-
-  * Enter deposits offline
-
-  * Enter expenses offline
-
-When brought back online:
-
-  * Offline entries should be added to tracker.
-
-## User Story
-AS AN avid traveller
-I WANT to be able to track my withdrawals and deposits with or without a data/internet connection
-SO THAT my account balance is accurate when I am traveling
-
-## Business Context
-
-Giving users a fast and easy way to track their money is important, but allowing them to access that information anytime is even more important. Having offline functionality is paramount to our applications success.
-
-
-## Acceptance Criteria
-GIVEN a user is on Budget App without an internet connection
-WHEN the user inputs a withdrawal or deposit
-THEN that will be shown on the page, and added to their transaction history when their connection is back online.
-
-- - -
-
-## Commit Early and Often
-
-* One of the most important skills to master as a web developer is version control. Building the habit of committing via Git is important for two reasons:
-
-1. Your commit history is a signal to employers that you are actively working on projects and learning new skills
-
-2. Your commit history allows you to revert your code base in the event that you need to return to a previous state
-
-* Follow these guidelines for committing:
-
-  * Make single purpose commits for related changes to ensure a clean, manageable history. If you are fixing two issues, make two commits
-
-  * Write descriptive, meaningful commit messages so that you and anyone else looking at your repository can easily understand its history
-
-  * Don't commit half done work, for the sake of your collaborators (and your future self!)
-
-  * Test your application before you commit to ensure functionality at every step in the development process
-
-* We would like you to have well over 200 commits by graduation, so commit early and often!
-
-* Deploy your application with [Heroku and MongoDB Atlas.](../04-Important/MongoAtlas-Deploy.md)
-
-## Submission on BCS
-
-* You are required to submit the following:
-
-  * the URL to the deployed application
-
-  * the URL to the Github repository
-
+![GitHub repo size](https://img.shields.io/github/repo-size/stevensjones/BudgetTrackerOnlineOfflineTwelfthEdition)
+# Project Title: 
+> Budget Tracker
+## Description: 
+> This app is designed to track a user's budget; both online and off, using javascript, a Mongo database with a Mongoose schema and route handling with Express as well as a logger using Morganjs"
+>  https://whispering-beyond-78297.herokuapp.com/
+> ![Screen Shot 2021-01-03 at 1 33 35 PM](https://user-images.githubusercontent.com/56704209/103488436-c394b480-4dc9-11eb-888b-16d9cd8dbc7e.png)
+## Table Of Contents:
+- [Title](#Title)
+- [Description](#Description)
+- [Table Of Contents](#TableOfContents)
+- [Prerequisites](#Prerequisites)
+- [Tests](#Tests)
+- [Contributing](#Contributing)
+- [Usage](#Usage) 
+- [License](#License)
+- [Further Contact](#FurtherContact)
+## Prerequisites:
+>  mongoose : npm i mongoose, express : npm i express, morgan : npm i morgan, mongoDB Atlas : * [Set Up MongoDB Atlas](../04-Supplemental/MongoAtlas-Setup.md)
+> start script: node server.js
+## Tests:
+> None
+## Contributing:
+> Steven Jones
+## Usage:
+> For anyone looking to manage their Budget online and offline, through the expenditure and amount processed and how that affects the overall amount in one's budgert.
+## License
+> © 2020 Steven Jones. All Rights Reserved 
+## Further Contact:
+> Feel free to reach out to me with questions involving this project on GITHUB at : [stevensjones](https://github.com/stevensjones);
